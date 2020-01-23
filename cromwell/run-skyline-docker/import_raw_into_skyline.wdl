@@ -94,7 +94,7 @@ task download_file {
     }
 
     runtime {
-        docker: "panorama-files:1.0"
+        docker: "proteowizard/panorama-files:1.0"
     }
 
     output {
@@ -118,7 +118,7 @@ task upload_file {
     }
 
     runtime {
-        docker: "panorama-files:1.0"
+        docker: "proteowizard/panorama-files:1.0"
     }
 
     output {

@@ -23,7 +23,6 @@ Cromwell is easy to install. It is shipped as number of JAR files.  To install a
 ### Install Java JRE
 Cromwell's documentation says Java 8 is required. Not sure if that means newer ones are supported. I ran these scripts with JAVA-8. You will need to install the JRE on your workstation. Cromwell's documentation says to install https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html
 
-
 ### Install Docker 
 Install docker on your workstation
 - Mac: https://docs.docker.com/docker-for-mac/install/
@@ -31,26 +30,11 @@ Install docker on your workstation
 
 Contact me if you need help installing or using the Docker on your workstation.
 
-
 ### Setup .netrc 
 
 This is required to download and upload the files from your Panorama server. A netrc file (.netrc or _netrc) is used to hold credentials necessary to login to your LabKey Server and authorize access to data stored there. The netrc file contains configuration and autologin information when using APIs. It may be used when working with SAS Macros, Transformation Scripts in Java or using the Rlabkey package.
 
 To create the `.netrc` file, follow the instructions on the [Create a netrc file](https://www.labkey.org/Documentation/wiki-page.view?name=netrc) documentation. 
-
-
-### Create the panorama-files Docker image 
-
-The panorama-files docker image can be created by copying the contents of https://github.com/uw-maccosslab/panorama-examples/tree/master/docker folder to your local workstation. 
-
-Build the image by running 
-
-```
-docker image build -t panorama-files:1.0 .
-```
-
-In a future release I will be hosting this Docker image on Docker Hub. 
-
 
 
 ## Executing the workflow 
