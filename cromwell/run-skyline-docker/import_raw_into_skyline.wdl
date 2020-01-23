@@ -72,7 +72,7 @@ task download_run {
     }
 
     runtime {
-        docker: "panorama-files:1.0"
+        docker: "proteowizard/panorama-files:1.0"
     }
 
     output {
