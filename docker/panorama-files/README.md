@@ -30,3 +30,13 @@ docker run -it -v $HOME/.netrc:/root/.netrc:ro -v $PWD:/data --rm panorama-files
 ```
 
 The file `Site20_STUDY9S_Cond_6ProtMix_QC_01.sky.zip` will be uploaded to the folder https://panoramaweb.org/home/Example Data/Workflow/project-begin.view
+
+
+# Downloading the Docker image 
+This docker repo is available on Docker Hub at https://hub.docker.com/repository/docker/proteowizard/panorama-files/general
+
+It can be downloaded by running 
+
+```
+docker pull proteowizard/panorama-files:1.0
+```
