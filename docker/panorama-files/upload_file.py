@@ -149,6 +149,7 @@ try:
             upload_response.status_code,
             upload_text
         )
+        sys.exit(1)
 except requests.exceptions.HTTPError as errh:
     logger.error("Download failed with Http Error %s", errh)
     sys.exit(1)

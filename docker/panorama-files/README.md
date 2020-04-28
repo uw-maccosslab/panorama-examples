@@ -3,7 +3,7 @@ Simple Docker image which will download and upload files to a [Panorama Server](
 # Building the docker image 
 To build the docker image, simply run 
 ```
-docker image build -t panorama-files:1.0 .
+docker image build -t panorama-files:1.1 .
 ```
 
 # Using the docker image 
